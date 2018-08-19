@@ -11,12 +11,12 @@ server:
   port: 7001
 eureka:
   instance:
-    hostname: eureka7001.com    #hostnameÎªhostsÎÄ¼şÖĞÓ³ÉäµÄµØÖ·
+    hostname: eureka7001.com    #hostnameä¸ºhostsæ–‡ä»¶ä¸­æ˜ å°„çš„åœ°å€
   client:
-    register-with-eureka: false     #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false           #false±íÊ¾×Ô¼º¾ÍÊÇ×¢²áÖĞĞÄ£¬Ö°ÔğÊÇÎ¬»¤ÊµÀı£¬²»²Î¼Ó¼ìË÷
+    register-with-eureka: false     #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false           #falseè¡¨ç¤ºè‡ªå·±å°±æ˜¯æ³¨å†Œä¸­å¿ƒï¼ŒèŒè´£æ˜¯ç»´æŠ¤å®ä¾‹ï¼Œä¸å‚åŠ æ£€ç´¢
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/   #ÉèÖÃeureka serverµÄ½»»¥µØÖ·
+      defaultZone: http://eureka7001.com:7001/eureka/   #è®¾ç½®eureka serverçš„äº¤äº’åœ°å€
 
 --- 
 spring:
@@ -27,9 +27,9 @@ server:
   port: 7001
 eureka:
   instance:
-    hostname: eureka7001.com    #hostnameÎªhostsÎÄ¼şÖĞÓ³ÉäµÄµØÖ·
+    hostname: eureka7001.com    #hostnameä¸ºhostsæ–‡ä»¶ä¸­æ˜ å°„çš„åœ°å€
   client:
-    register-with-eureka: false     #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false           #false±íÊ¾×Ô¼º¾ÍÊÇ×¢²áÖĞĞÄ£¬Ö°ÔğÊÇÎ¬»¤ÊµÀı£¬²»²Î¼Ó¼ìË÷
+    register-with-eureka: false     #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false           #falseè¡¨ç¤ºè‡ªå·±å°±æ˜¯æ³¨å†Œä¸­å¿ƒï¼ŒèŒè´£æ˜¯ç»´æŠ¤å®ä¾‹ï¼Œä¸å‚åŠ æ£€ç´¢
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/    #ÉèÖÃeureka serverµÄ½»»¥µØÖ·
+      defaultZone: http://eureka7001.com:7001/eureka/    #è®¾ç½®eureka serverçš„äº¤äº’åœ°å€
